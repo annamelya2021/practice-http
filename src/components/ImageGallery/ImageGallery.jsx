@@ -63,8 +63,7 @@ class ImageGallery extends Component {
     if (status === 'resolved') {
       return (
         <div>
-          <h1>заголовок{}</h1>
-
+          <h1>заголовок</h1>
           {/* <ul className={css.ImageGallery}>
             {this.pokemon.map(({ id, tags, webformatURL, largeImageURL }) => (
               <li className={css.ImageGalleryItem}>
