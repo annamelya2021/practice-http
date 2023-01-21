@@ -16,7 +16,7 @@ export class App extends Component {
   };
   //   pokemon: null,
   //   loading: false,
-  // };
+  // };jjjjjj
   // componentDidMount() {
   //   this.setState({ loading: true });
   //   fetch('https://pokeapi.co/api/v2/pokemon/ditto')
