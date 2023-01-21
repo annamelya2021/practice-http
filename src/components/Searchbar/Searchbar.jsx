@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import css from './SearchBar.module.css';
 import { FcSearch } from 'react-icons/fc';
 // import { toast } from 'react-toastify';
 import { Notify } from 'notiflix';
@@ -25,16 +24,15 @@ class SearchBar extends Component {
   };
   render() {
     return (
-      <header className={css.Searchbar}>
-        <form onSubmit={this.handleSubmit} className={css.SearchForm}>
-          <button type="submit" className={css.SearchFormButton}>
+      <header>
+        <form onSubmit={this.handleSubmit}>
+          <button type="submit">
             <FcSearch size="26px"></FcSearch>
-            <span className={css.SearchFormButtonLabel}></span>
+            <span></span>
           </button>
 
           <input
             name="searchQuery"
-            className={css.SearchFormInput}
             type="text"
             value={this.state.searchquery}
             onChange={this.handleNameChange}

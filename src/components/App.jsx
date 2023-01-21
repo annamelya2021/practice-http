@@ -3,7 +3,7 @@ import css from './App.module.css';
 // import { ToastContainer } from 'react-toastify';
 // import Searchbar from './Searchbar';
 import { Component } from 'react';
-import SearchBar from './SearchBar/SearchBar';
+import SearchBar from './Searchbar/Searchbar';
 import ImageGallery from './ImageGallery/ImageGallery';
 
 export class App extends Component {
